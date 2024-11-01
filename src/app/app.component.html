@@ -1,0 +1,9 @@
+<h1>{{title}}</h1>
+<br>
+<div *ngFor="let clnt of arrayUsers">
+  <div *ngIf="clnt.age > 20">
+    {{clnt.firstname}} {{clnt.lastname}} {{clnt.age}}
+
+  </div>
+
+</div>
